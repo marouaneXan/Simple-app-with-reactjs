@@ -8,6 +8,6 @@ export default function Buttons(props) {
 Buttons.propTypes={
     text:propTypes.string,
     color:propTypes.string,
-    onClick:propTypes.func.isRequired,
+    onClick:propTypes.func,
 }
 
